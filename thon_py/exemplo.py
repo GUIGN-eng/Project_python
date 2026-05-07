@@ -1,11 +1,13 @@
-n = float(input("Digite um valor: "))
-nome = str(input("Informe seu nome completo: "))
-if n >= 5 and n <= 10:
-    if n == 100:
-        if nome != "Guilherme":
-            print("ERRO USUARIO NÃO RECONHECIDO")
+import os
+os.system("cls")
 
-elif n <= 5 or n >= 10:
-    if n == 2021:
-        if nome == "Guilherme":
-            print("USUARIO RECONHECIDO. ACEPTED")
+nome = input("Informe seu nome completo: ")
+ano_nascimento = int(input("Informe o ano em que voçê nasceu: "))
+
+idade = 2026 - ano_nascimento
+
+if nome == "Guilherme" and idade == 21:
+    print("GOSTOÃO DO HOST RECONHECIDO")
+else:
+    print("Deixa de tentar vagabunda, não te conheço" \
+    "\nEntão voçê não entra")
