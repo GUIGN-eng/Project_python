@@ -9,5 +9,5 @@ idade = 2026 - ano_nascimento
 if nome == "Guilherme" and idade == 21:
     print("GOSTOSÃO DO HOST RECONHECIDO")
 else:
-    print("Deixa de tentar vagabunda, não te conheço" \
+    print("Deixa de tentar, não te conheço" \
     "\nEntão voçê não entra")
